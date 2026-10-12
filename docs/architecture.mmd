@@ -1,0 +1,17 @@
+flowchart TD
+  A[Approved social APIs / app listing APIs / demo data] --> B[Express collection API]
+  B --> C[Normalize and validate candidates]
+  C --> D[Official asset registry]
+  D --> E{Trusted official match?}
+  E -- Yes --> F[Exclude from threat alerts]
+  E -- No --> G[Detection engine]
+  G --> H[Name similarity]
+  G --> I[Context and link signals]
+  G --> J[Publisher and app signals]
+  G --> K[Logo or icon signal, if supplied]
+  H --> L[Explainable risk score and evidence]
+  I --> L
+  J --> L
+  K --> L
+  L --> M[(MongoDB: Threats and Scans)]
+  M --> N[React dashboard, filters, review and CSV export]
