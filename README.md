@@ -1,4 +1,4 @@
-# BrandShield AI — Digital Risk Protection
+# Trust Trace AI — Digital Risk Protection
 
 A MERN-stack hackathon prototype for monitoring potential brand impersonation across social profiles and mobile app listings.
 
@@ -104,7 +104,7 @@ Open the Vite URL printed in the terminal, usually http://localhost:5173.
 
 ## 6. Demo workflow
 
-1. Create a brand profile, e.g. `NovaPay Demo`.
+1. Create a brand profile, e.g. `Social Media Demo`.
 2. Add an official social account URL/account ID and an official app package ID if you have a real test asset. For the fictional demo brand, use clearly fictional test identifiers.
 3. Open Social Monitoring and run a sample scan.
 4. Open App Monitoring and run a sample scan.
